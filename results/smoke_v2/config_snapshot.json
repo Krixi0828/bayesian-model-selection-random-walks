@@ -1,0 +1,140 @@
+{
+  "base_seed": 28041999,
+  "evidence_seed": 20261001,
+  "evidence": {
+    "base_budget": 256,
+    "escalation_budget": 1024,
+    "max_budget": 4096,
+    "ess_fraction_min": 0.01,
+    "max_weight_max": 0.2,
+    "near_boundary_abs_logbf": 0.5,
+    "repeat_sd_max": 0.05
+  },
+  "e0": {
+    "diffusion_T": [
+      100,
+      300,
+      1000
+    ],
+    "diffusion_reps": 300,
+    "arcsine_T": [
+      100,
+      1000
+    ],
+    "arcsine_reps": 600
+  },
+  "e1": {
+    "N": [
+      20,
+      50
+    ],
+    "T": [
+      50,
+      200
+    ],
+    "delta_p": [
+      0.05,
+      0.2
+    ],
+    "reps": 8,
+    "prior_a": 1.0
+  },
+  "e2": {
+    "N": 30,
+    "T": [
+      20,
+      100
+    ],
+    "fixed_delta_p": 0.2,
+    "fixed_kappa": [
+      1.0
+    ],
+    "reps": 2,
+    "prior_a": 1.0
+  },
+  "e3": {
+    "N": 60,
+    "T": 200,
+    "prior_a": [
+      0.5,
+      1.0,
+      5.0
+    ],
+    "delta_p": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "reps": 6
+  },
+  "e4": {
+    "N": 40,
+    "T": 80,
+    "budgets": [
+      64,
+      128,
+      256
+    ],
+    "estimator_seeds": 1,
+    "reference_initial_budget": 1024,
+    "reference_max_budget": 4096,
+    "reference_scrambles": 2,
+    "reference_escalate_sd": 0.1,
+    "reference_sd_max": 0.2,
+    "reference_boundary_abs_logbf": 0.5,
+    "gate_sign_error_max": 0.5,
+    "target_p95_abs_logz_error": 2.0,
+    "cases": {
+      "M1_center": 1,
+      "M1_offcenter": 1,
+      "M2_hard": 1,
+      "M2_medium": 1,
+      "M2_imbalanced": 1
+    }
+  },
+  "e5": {
+    "N": [
+      20,
+      80
+    ],
+    "T": 200,
+    "delta_p": [
+      0.05,
+      0.2
+    ],
+    "reps": 6,
+    "prior_a": 1.0
+  },
+  "e6": {
+    "N": [
+      50,
+      100
+    ],
+    "T": 200,
+    "delta_p": [
+      0.05,
+      0.2
+    ],
+    "minority_weight": [
+      0.5,
+      0.2,
+      0.05
+    ],
+    "reps": 6,
+    "prior_a": 1.0
+  },
+  "e7": {
+    "N": 60,
+    "T": 120,
+    "q": [
+      0.4,
+      0.5,
+      0.56,
+      0.6,
+      0.8
+    ],
+    "reps": 6,
+    "prior_a": 1.0
+  },
+  "profile_name": "smoke_v2"
+}

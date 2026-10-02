@@ -1,0 +1,182 @@
+{
+  "base_seed": 28041999,
+  "evidence_seed": 20261001,
+  "evidence": {
+    "base_budget": 4096,
+    "escalation_budget": 32768,
+    "max_budget": 131072,
+    "ess_fraction_min": 0.01,
+    "max_weight_max": 0.2,
+    "near_boundary_abs_logbf": 0.5,
+    "repeat_sd_max": 0.05
+  },
+  "e0": {
+    "diffusion_T": [
+      100,
+      300,
+      1000,
+      3000,
+      10000,
+      30000,
+      100000
+    ],
+    "diffusion_reps": 5000,
+    "arcsine_T": [
+      100,
+      1000,
+      10000
+    ],
+    "arcsine_reps": 10000
+  },
+  "e1": {
+    "N": [
+      20,
+      50,
+      100,
+      200
+    ],
+    "T": [
+      50,
+      200,
+      1000
+    ],
+    "delta_p": [
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "reps": 200,
+    "prior_a": 1.0
+  },
+  "e2": {
+    "N": 100,
+    "T": [
+      10,
+      20,
+      50,
+      100,
+      200,
+      500,
+      1000
+    ],
+    "fixed_delta_p": 0.2,
+    "fixed_kappa": [
+      1.0,
+      2.0
+    ],
+    "reps": 300,
+    "prior_a": 1.0
+  },
+  "e3": {
+    "N": 100,
+    "T": 200,
+    "prior_a": [
+      0.5,
+      1.0,
+      2.0,
+      5.0,
+      10.0,
+      20.0
+    ],
+    "delta_p": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "reps": 300
+  },
+  "e4": {
+    "N": 100,
+    "T": 200,
+    "budgets": [
+      64,
+      128,
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      32768,
+      65536
+    ],
+    "estimator_seeds": 10,
+    "reference_initial_budget": 262144,
+    "reference_max_budget": 1048576,
+    "reference_scrambles": 4,
+    "reference_escalate_sd": 0.02,
+    "reference_sd_max": 0.05,
+    "reference_boundary_abs_logbf": 0.5,
+    "gate_sign_error_max": 0.01,
+    "target_p95_abs_logz_error": 0.25,
+    "cases": {
+      "M1_center": 8,
+      "M1_offcenter": 4,
+      "M2_hard": 4,
+      "M2_medium": 2,
+      "M2_imbalanced": 2
+    }
+  },
+  "e5": {
+    "N": [
+      20,
+      50,
+      100,
+      200
+    ],
+    "T": 200,
+    "delta_p": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "reps": 300,
+    "prior_a": 1.0
+  },
+  "e6": {
+    "N": [
+      50,
+      100,
+      200
+    ],
+    "T": 200,
+    "delta_p": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "minority_weight": [
+      0.5,
+      0.3,
+      0.2,
+      0.1,
+      0.05
+    ],
+    "reps": 300,
+    "prior_a": 1.0
+  },
+  "e7": {
+    "N": 100,
+    "T": 200,
+    "q": [
+      0.4,
+      0.45,
+      0.5,
+      0.52,
+      0.54,
+      0.56,
+      0.58,
+      0.6,
+      0.65,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "reps": 500,
+    "prior_a": 1.0
+  },
+  "profile_name": "paper_v2"
+}

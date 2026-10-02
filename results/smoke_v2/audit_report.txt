@@ -1,0 +1,44 @@
+RESULT AUDIT: smoke_v2
+base=/Users/lindachen/115-1/bayesian_random_walk_study_v2/results/smoke_v2
+
+[exp0_validation]
+NOT RUN (not present in manifest)
+
+[exp1_identifiability]
+NOT RUN (not present in manifest)
+
+[exp2_exact_vs_gaussian]
+rows=12 cols=32
+unexpected_nonfinite_numeric_cells=0
+binomial_numerical_status: {'pass': 11, 'reestimated_pass': 1}
+gaussian_numerical_status: {'pass': 11, 'reestimated_pass': 1}
+binomial_ess_fraction: min=0.283908 median=0.381407 lt_0.01=0 lt_0.05=0
+gaussian_ess_fraction: min=0.254773 median=0.380247 lt_0.01=0 lt_0.05=0
+binomial_max_weight_fraction: max=0.0402873 rows_gt_0.20=0
+gaussian_max_weight_fraction: max=0.0822753 rows_gt_0.20=0
+
+[exp3_prior_sensitivity]
+NOT RUN (not present in manifest)
+
+[exp4_convergence]
+rows=60 cols=25
+unexpected_nonfinite_numeric_cells=0
+estimator_ess_fraction: min=0.02612 median=0.369081 lt_0.01=0 lt_0.05=4
+estimator_max_weight_fraction: max=0.543812 rows_gt_0.20=6
+reference_between_run_sd_max=0.11519
+reference_unresolved=0/5
+numerical_gate: pass=1 decisive_sign_error_rate=0 p95_abs_logZ_error=0.233432 p95_target_met=1
+
+[exp5_baselines]
+NOT RUN (not present in manifest)
+
+[exp6_imbalance]
+NOT RUN (not present in manifest)
+
+[exp7_misspecification]
+NOT RUN (not present in manifest)
+
+E4_NUMERICAL_GATE_PASS=1
+TOTAL_UNRESOLVED_EVIDENCE_ROWS=0
+manifest_present=yes
+config_snapshot_present=yes

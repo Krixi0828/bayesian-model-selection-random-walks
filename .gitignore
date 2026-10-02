@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Numerical checkpoints / temporary computation state
+results/**/checkpoints/
+results/**/checkpoints_before_targeted_resolution/
+
+# Intermediate backup files
+results/**/raw_before_targeted_resolution.csv
+
+# Generated result bundles
+results_bundle_*.zip
+
+# Internal handoff notes
+RESULTS_TO_SEND.md
+
+# Backup files
+*.be
+
+# Manual pre-edit backups
+*.before_*
+
+# Additional backup files
+*.bak_before_*

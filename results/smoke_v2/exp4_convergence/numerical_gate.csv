@@ -1,0 +1,2 @@
+production_method,production_budget,decisive_sign_error_rate,sign_error_threshold,reference_all_pass,reference_sd_threshold,p95_abs_logZ_error,p95_target,p95_target_met,numerical_gate_pass
+ridge_is,256,0.0,0.5,1,0.2,0.23343195643361697,2.0,1,1

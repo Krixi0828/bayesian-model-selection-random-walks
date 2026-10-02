@@ -1,0 +1,57 @@
+{
+  "profile": "paper_v2",
+  "experiments": {
+    "e4": {
+      "rows": 8800,
+      "reference_datasets": 20,
+      "reference_unresolved": 0,
+      "numerical_gate_pass": 1,
+      "elapsed_seconds": 89.28158521652222
+    },
+    "e2": {
+      "rows": 8400,
+      "unresolved_evidence_rows": 0,
+      "checkpoint_chunks": 840,
+      "checkpoint_reps": 10,
+      "elapsed_seconds": 3.67911696434021
+    },
+    "e1": {
+      "rows": 24000,
+      "min_balanced_accuracy": 0.48000000000000004,
+      "max_balanced_accuracy": 1.0,
+      "unresolved_evidence_rows": 0,
+      "elapsed_seconds": 752.4762539863586
+    },
+    "e3": {
+      "rows": 7200,
+      "unresolved_evidence_rows": 2,
+      "elapsed_seconds": 273.8565421104431
+    },
+    "e5": {
+      "rows": 7200,
+      "unresolved_evidence_rows": 2,
+      "elapsed_seconds": 222.8313639163971
+    },
+    "e6": {
+      "rows": 13500,
+      "unresolved_evidence_rows": 3,
+      "elapsed_seconds": 637.103236913681
+    },
+    "e7": {
+      "rows": 6000,
+      "unresolved_evidence_rows": 0,
+      "elapsed_seconds": 278.3378629684448
+    },
+    "e0": {
+      "diffusion_alpha": 0.4984877338690647,
+      "diffusion_alpha_ci": [
+        0.4958547198559999,
+        0.5015000250896071
+      ],
+      "max_arcsine_ks": 0.0403,
+      "elapsed_seconds": 3.079573154449463
+    }
+  },
+  "started_unix": 1790930966.801368,
+  "finished_unix": 1790939102.646067
+}

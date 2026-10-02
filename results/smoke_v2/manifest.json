@@ -1,0 +1,21 @@
+{
+  "profile": "smoke_v2",
+  "experiments": {
+    "e2": {
+      "rows": 12,
+      "unresolved_evidence_rows": 0,
+      "checkpoint_chunks": 6,
+      "checkpoint_reps": 10,
+      "elapsed_seconds": 3.379831075668335
+    },
+    "e4": {
+      "rows": 60,
+      "reference_datasets": 5,
+      "reference_unresolved": 0,
+      "numerical_gate_pass": 1,
+      "elapsed_seconds": 1.773604154586792
+    }
+  },
+  "started_unix": 1790930864.3764129,
+  "finished_unix": 1790933235.671937
+}
